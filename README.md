@@ -127,7 +127,7 @@ pip install -r requirements.txt
 echo "GOOGLE_API_KEY=sk-..." > .env
 python agent.py --target icici
 pytest test_parsers.py -v
-# ✅ All tests pass!
+# All tests pass!
 ```
 
 ## Technical Details
