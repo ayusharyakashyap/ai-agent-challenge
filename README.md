@@ -145,10 +145,3 @@ To extend for new banks (e.g., SBI):
 1. Add sample data: `data/sbi/sbi_sample.pdf` + `data/sbi/result.csv`
 2. Run: `python agent.py --target sbi`
 3. Agent automatically generates: `custom_parsers/sbi_parser.py`
-
-## Evaluation Criteria
-
-- ✅ **35% Agent Autonomy**: Self-debug loops implemented
-- ✅ **25% Code Quality**: Type hints, documentation, clear structure  
-- ✅ **20% Architecture**: LangGraph workflow with clear nodes
-- ✅ **20% Demo**: Fresh clone → agent.py → green pytest in ≤60s
